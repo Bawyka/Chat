@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body { font-family : Geneva; font-size: 14px; }
+
+.sender{
+    border: solid 2px;
+	background-color:#33CCFF;
+	position: absolute; left: 0; bottom: 0; right: 250px; height: 140px;
+	margin: 4px;
+	vertical-align: middle;	
+}
+
+.text {
+    background-color:#33CCFF;
+	border: solid 2px;
+	position: absolute; top: 0; right: 250px; bottom: 150px; left: 0;
+	margin: 4px;
+	overflow-x: hidden; 
+	overflow-y: auto;
+	font-family: serif;
+    }
+	
+.smiles{
+    background-color:#33CCFF;
+	position: absolute; top: 0; right: 200px; bottom: 0; width: 40px;
+    border: 2px solid black;
+	margin: 4px;
+      }
+	  
+.users { 
+    background-color:#33CCFF;
+	position: absolute; top: 60px; right: 0; bottom: 150px; width: 190px;
+    border: 2px solid black;
+	margin: 4px;
+	overflow-x: hidden;
+    overflow-y: auto; 
+      }
+
+.users .pi { height: 25px; margin: 0pt; border: 2px groove black; }
+.users .ava { position: relative; float: left; height: 25px; width: 25px; margin-top: 0pt; bottom: 0pt; }
+.users .name { float: left; margin: 2px; text-indent: 3px; }
+.users .status { position: relative; bottom: auto; font-size: 10px; color: brown; }
+	  
+#color { background: none repeat scroll 0% 0% rgb(153, 204, 255); width: 100px; }
+	  
+#logo {
+ position: absolute; top: 0; right: 0;
+ width: 190px;
+ height: 50px;
+ background-color: #33CCFF;
+ border: 2px solid black;
+ margin: 4px;
+ }
+.admk {
+ position: absolute; right: 0; bottom: 0; width: 190px; height: 139px;
+ background-color: #33CCFF;
+ border: 2px solid black;
+ margin: 4px;
+ }
+ 
+a:visited { color: blue; }
+a { color: blue; }
+
+
+.regwrapper {
+
+	margin: 20px auto;
+	border: 2px solid #c2c2c2;	
+	width: 240px;
+	
+	background: lightgreen;
+	
+	border-radius: 4px;
+	
+	font-family: 'Fredoka One', cursive;
+}
+
+.succ { padding: 1px; font-family: 'Fredoka One', cursive; color: magenta; background: #0054E3; color: #FFFAFA; border: none; }
+
+.countries {
+
+width: 147px; font-family: Verdana; font-weight: bold; color: #D2691E;
+
+}
+
+.countries option { text-indent: 10px; }
+
+.regwrapper input { border-radius: 4px; }
+
+.titled { text-align: center; background: RGB(50, 200, 100); font-weight: bold; color: yellow; height: 20px;padding: 5px; }
+
+/* registration table */
+.tblreg { 
+
+	border-collapse: collapse;
+}
+.tblreg tr td { padding: 5px;  }
+.tblreg caption { padding: 20px; }
+
+a.name { text-decoration: none; }
+
+div.error {
+ position: absolute;
+ left: 40%; top: 2%; background: red; z-index: 9999; padding: 0 3px 2px; border-radius: 4px; border: 2px solid yellow;
+ 
+}
+
+ul { list-style: none; padding: 0; margin: 0; }
+.admk { overflow: hidden; }
+#coloring { position: relative; }
+#coloring li span { padding: 1px 0; }
+#coloring a.polz { 
+	position: absolute;
+	text-align: center;
+	z-index: 9999;  
+	font-size: 8px;
+	text-decoration: none; 
+	color: #fff; 
+	height: 10px; 
+	width: 10px; 
+	border-radius: 6px; 
+	display: block; 
+	border: 1px solid white;
+	margin-top: 4px;
+}
+.sender, .admk, .text, .smiles, .users {  }

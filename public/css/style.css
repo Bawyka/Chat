@@ -1,0 +1,78 @@
+/* style */
+* { margin: 0; padding: 0; }
+
+html,body { width: 100%; height: 100%; background: #FFF; top: 0; }
+
+body { overflow-x: hidden; overflow-y: auto; }
+
+.entwrapper { margin: 0 auto; width: 50%; }
+
+.holdent { margin: 20px auto; width: 300px; background: lightgreen; font-family: 'Fredoka One',cursive; border-radius: 4px; border: 2px solid #c2c2c2; }
+
+/* Форма входа */
+.powtable {
+
+	width: 300px;
+	
+	text-align: center;
+	
+	margin: 0 auto;
+
+	border-collapse: collapse;
+	
+}
+
+.powtable tr td {
+
+	padding: 3px;
+
+}
+
+.vhodbtn {
+
+text-align:center; width: 65px; color: #3CB371; font-weight: bold; border: none; color: #ACA899;
+
+}
+
+.powtable tr td input { border-radius: 4px; }
+
+#guest { background: RGB(159, 216, 239); border: 1px groove RGB(79, 85, 91); border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none; padding-top: 2px; width: 110px; }
+#joke { font-family: Verdana; border-top-left-radius: 0; border-bottom-left-radius: 0; border:1px groove RGB(79, 85, 91); height: 20px; width: 30px; border-left: none; font-weight: bold; color: #3CB371; }
+
+.logpass { height: 18px; width: 130px; }
+
+.uspane { margin-right: 10px; }
+
+
+.smiles img {
+
+	width: 30px; height: 25px;
+
+}
+
+#bold.bolder { font-weight: bold; }
+
+/* CHAT */
+
+.okno, .menu, .inarea { background: #33CCFF; border: 1px solid; }
+
+.okno { position: absolute; left: 0; top: 0; right: 0; height: 80%; width: auto; }
+.menu { position: absolute; right: 0; top: 0; width: 205px; height: 100%; }
+.inarea { position: absolute; bottom: 0; left: 0; right: 206px; width: auto; height: 20%; }
+
+
+.okno #chat { margin: 4px; width: 100%; height: 100%; background: #c2c2c2; }
+.menu #place { margin: 4px; width: 100%; height: 100%; background: #c2c2c2; }
+.inarea #panel { margin: 4px auto; width: auto; height: 100%; background: #c2c2c2; }
+
+.holder { width: 100%; margin-top: 50px; float: left; overflow: hidden; }
+.holder #to { width: 150px; margin-left: 40px; }
+.holder #color { width: 100px; }
+.holder #msg { width: 60%; }
+.holder #send { width: 50px; }
+
+.holder { position: relative; left: 0; top: 0; }
+
+#place .logo { position: relative; top: 0; width: 100%; height: 30px; border: 1px solid; text-align: center; }
+#place .users { position: relative; top: 0; bottom: 0; width: 100%; border: 3px solid green; }
+#place .box { position: relative; bottom: 0; width: 100%; height: 100px; border: 1px solid;  }
