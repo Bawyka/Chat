@@ -1,0 +1,26 @@
+/* RandomChat.tar style */
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; }
+body { background: url(../img/stars.gif); }
+input, textarea { outline: none; border: none; } 
+input:active, textarea:active { outline: none; }
+:focus { outline: none; }
+a { text-decoration: none; color: #000; outline: none; }
+p { cursor: default; }
+#wrapper { width: 90%; margin: 0 auto; height: 100%; background: #000; }
+#content { height: 100%; }
+#header { width: 100%; background: url(../img/header.jpg); margin-top: 0px; height: 10%; overflow: hidden; }
+#header h1 { color: white; text-align: center; line-height: 2; font-family: Verdana; font-size: 190%; }
+#footer { width: 100%; background: url(../img/footer.jpg); background: #000; }
+#footer p {  }
+#box { width: 100%; height: 80%; background: #4682B4; }
+#keeper { width: 100%; text-align: center; background: #ECE9D8; display: block; height: 20px; }
+#keeper ul#nav-menu { width: 100%; display: inline; list-style: none; }
+#keeper ul#nav-menu li { float: left; margin: 0 0 0 3px; border-right: 1px solid #ccc; width: 40px; }
+#keeper a { color: #778899; font-family: bold; font-weight: bold; }
+#keeper a:hover { opacity: 0.5; color: red; }
+#keeper a span { width: 100%; height: 100%; padding: 0 0 3px 0; background: #ECE9D8; cursor: pointer;}
+#chat { margin-top: 1px; border-top: 1px solid #778899; text-indent: 4px; color: #fff; font-family: cursive; }
+#msg-send { background: #ECE9D8; }
+#msg { width: 95%; height: 25px; display: block; float: left; background: #D3D3D3; text-indent: 4px; }
+#send { width: 5%; display: block; float: left; height: 25px; font-weight: bold; color: #778899; }
